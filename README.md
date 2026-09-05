@@ -36,22 +36,9 @@ Before deploying this project, make sure you have:
     AWS CLI 
     AWS SAM CLI
 
-**Project Structure**
-
-.
-├── README.md
-├── lambda_function.py
-├── requirements.txt
-└── ...
+    
  Consider using AWS Secrets Manager or AWS Systems Manager Parameter Store for PDF password.
 
-S3 Configuration
-
-Configure an S3 event notification to trigger the Lambda function when a PDF is uploaded.
-
-Example:
-
-Bucket: my-pdf-bucket
 
 
 
@@ -61,7 +48,7 @@ You can test the Lambda function by uploading a PDF to the configured S3 bucket.
 
 Check the Lambda logs in Amazon CloudWatch to verify that the function executed successfully.
 
-Expected flow:
+****Expected flow:****
 
 PDF uploaded
     ↓
