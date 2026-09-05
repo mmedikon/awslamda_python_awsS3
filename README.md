@@ -66,21 +66,17 @@ Error Handling
 
 **Deploy through SAM**
 
-sam build
+Build using SAM
 
-This creates the build artifacts required for deployment.
+_sam build_
 
-You can verify the generated build:
-
-ls .projectfolder/
 
 Validate the SAM Template
 
-Run:
 
-sam validate
+_sam validate_
 
 Deploy
 
-sam deploy --guided
+_sam deploy --guided_
 
