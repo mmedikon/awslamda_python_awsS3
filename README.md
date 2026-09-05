@@ -18,7 +18,7 @@ AWS Lambda
   ▼
 Amazon S3
 
-Features
+**Features**
 
     Automatically processes PDF files uploaded to S3
     Encrypts PDFs with a password
@@ -26,7 +26,7 @@ Features
     Uses Amazon S3 for input and output files
     No server infrastructure required
 
-Prerequisites
+**Prerequisites**
 
 Before deploying this project, make sure you have:
 
@@ -37,7 +37,7 @@ Before deploying this project, make sure you have:
     Python installed locally if the Lambda function is written in Python
     AWS CLI configured, if deploying through the CLI
 
-Project Structure
+**Project Structure**
 
 .
 ├── README.md
@@ -145,7 +145,7 @@ The Lambda function creates an encrypted version:
 output/
 └── document_encrypted.pdf
 
-Testing
+**Testing**
 
 You can test the Lambda function by uploading a PDF to the configured S3 bucket.
 
